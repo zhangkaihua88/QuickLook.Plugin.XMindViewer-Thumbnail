@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickLook.Plugin.XMindViewer", "QuickLook.Plugin.XMindViewer.csproj", "{ED1D0BB0-9273-4B2A-A0AC-A302942B5EFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED1D0BB0-9273-4B2A-A0AC-A302942B5EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1D0BB0-9273-4B2A-A0AC-A302942B5EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1D0BB0-9273-4B2A-A0AC-A302942B5EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1D0BB0-9273-4B2A-A0AC-A302942B5EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E138A90-AEFF-4E8A-A14B-430B1F5E8019}
+	EndGlobalSection
+EndGlobal
