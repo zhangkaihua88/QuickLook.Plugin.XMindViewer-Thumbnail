@@ -67,12 +67,12 @@ namespace QuickLook.Plugin.XMindViewer
             {
                 foreach (ZipArchiveEntry entry in archive.Entries)
                 {
-                    if (entry.FullName == "Thumbnails/thumbnail.png")
+                    if (entry.FullName.Contains("thumbnail"))
                     {
                         string curAssemblyFolder = new Uri(System.Reflection.Assembly.GetExecutingAssembly().CodeBase).LocalPath;
                         curAssemblyFolder = Path.GetDirectoryName(curAssemblyFolder);
                         // Gets the full path to ensure that relative segments are removed.
-                        string destinationPath = Path.GetFullPath(Path.Combine(curAssemblyFolder, "thumbnail.png"));
+                        string destinationPath = Path.GetFullPath(Path.Combine(curAssemblyFolder, Path.GetFileName(entry.FullName)));
                         entry.ExtractToFile(destinationPath, true);
                         return destinationPath;
                     }
